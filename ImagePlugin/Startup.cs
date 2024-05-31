@@ -14,7 +14,6 @@ namespace ImagePlugin
             services.AddScoped<IBlurPlugin, BlurPlugin>();
             services.AddScoped<IGrayscalePlugin, GrayscalePlugin>();
             services.AddScoped<IResizePlugin, ResizePlugin>();
-            services.AddScoped<IPluginManager, PluginManager>();
         }
     }
 }
